@@ -717,7 +717,7 @@ function RoleSelectionScreen({ onSelect }) {
     <div style={{padding:"36px 22px"}}>
       <div style={{display:"flex",justifyContent:"flex-end",marginBottom:24}}><ThemeToggle/></div>
       <Lbl style={{marginBottom:8}}>SWIIN</Lbl>
-      <H size={26} style={{marginBottom:6}}>Bienvenue.</H>
+      <H size={26} style={{marginBottom:6}}>Bienvenue SWIIN TEST.</H>
       <div style={{fontSize:13,color:t.sec,marginBottom:28,lineHeight:1.6}}>Choisissez votre profil pour commencer.</div>
       <div style={{display:"flex",flexDirection:"column",gap:10,marginBottom:24}}>
         {roles.map(r=>{
